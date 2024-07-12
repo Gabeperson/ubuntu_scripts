@@ -19,7 +19,7 @@ printf "theme = \"nightfox\"\n\n[editor]\nlsp.display-inlay-hints = true\ntrue-c
 # Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 . "$HOME/.cargo/env"
-rustup component install rust-analyzer
+rustup component add rust-analyzer
 
 
 . ~/.bashrc
