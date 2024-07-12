@@ -1,10 +1,10 @@
 # GCC
-sudo apt install gcc-multilib
+sudo apt install gcc-multilib -y
 
 # Helix editor
 sudo add-apt-repository ppa:maveonair/helix-editor -y
 sudo apt update
-sudo apt install helix
+sudo apt install helix -y
 printf "theme = \"nightfox\"\n\n[editor]\nlsp.display-inlay-hints = true\ntrue-color = true" > ~/.config/helix/config.toml
 
 # Rust
