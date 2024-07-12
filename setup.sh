@@ -7,6 +7,9 @@ sudo apt install pkg-config -y
 # libssl dev
 sudo apt install libssl-dev -y
 
+# fzf
+sudo apt install fzf -y
+
 # Helix editor
 sudo add-apt-repository ppa:maveonair/helix-editor -y
 sudo apt update
@@ -31,7 +34,8 @@ cargo install just
 cargo install rewrk --git https://github.com/ChillFish8/rewrk.git
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 
-echo "export PATH=\"~/.local/bin:$PATH\"" >> ~/.bashrc
+echo "export PATH=\"~/.local/bin:${PATH@Q}\"" >> ~/.bashrc
 . ~/.bashrc
 
 echo "alias cd=z" >> ~/.bashrc
+echo "eval \"\$(zoxide init bash)\"" >> ~/.bashrc
