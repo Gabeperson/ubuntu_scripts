@@ -1,6 +1,9 @@
 # GCC
 sudo apt install gcc-multilib -y
 
+# pkg-config
+sudo apt install pkg-config -y
+
 # libssl dev
 sudo apt install libssl-dev -y
 
