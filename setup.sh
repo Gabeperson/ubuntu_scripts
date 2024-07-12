@@ -14,7 +14,7 @@ rustup component install rust-analyzer
 
 # Go
 # from https://github.com/kerolloz/go-installer
-bash <(curl -sL https://git.io/go-installer)
+curl https://git.io/go-installer | bash
 
 # Utils
 cargo install du-dust
