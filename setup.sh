@@ -10,7 +10,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 rustup component install rust-analyzer
 
 
-source ~/.bashrc
+. ~/.bashrc
 
 # Go
 # from https://github.com/kerolloz/go-installer
@@ -23,6 +23,6 @@ cargo install rewrk --git https://github.com/ChillFish8/rewrk.git
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 
 echo "export PATH=\"~/.local/bin:$PATH\"" >> ~/.bashrc
-source ~/.bashrc
+. ~/.bashrc
 
 echo "alias cd=z" >> ~/.bashrc
