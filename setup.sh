@@ -1,6 +1,9 @@
 # GCC
 sudo apt install gcc-multilib -y
 
+# libssl dev
+sudo apt install libssl-dev -y
+
 # Helix editor
 sudo add-apt-repository ppa:maveonair/helix-editor -y
 sudo apt update
